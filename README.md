@@ -19,15 +19,15 @@ Basta dar o start no selenium server e iniciar o app em GO:
 
 ```go run main.go```
 
-## Aviso legal (Disclaimer)
+## Instalar - MacOS
+```
+Instalar o Google Chrome
+Instalar o JAVA
+Instalar o Brew
 
-O projeto não mantém nem atualiza os dados do LexML, não altera nem transforma os dados durante a coleta. O autor do projeto não assume qualquer responsabilidade sobre o seu uso e resultados.
+Baixar o selenium server stand alone\
+Permitir o acesso ao arquivo (configurações de segurança)
 
-## Considerações éticas
-
-A) Idealmente o sistema LexML deveria disponibilizar uma API ou no mínimo um web service para facilitar o acesso, como isso não existe projetos como esse são necessários. O LexML não proíbe expressamente o uso de crawlers/scraapers, você pode conferir acessando o robots.txt do sistema. Isso porém não quer dizer que seu IP não será bloqueado caso você execute muitas requisições.
-
-B) Esse projeto foi criado de forma voluntária, você pode contribuir de qualquer modo. Se encontrar uma falha, não hesite em criar um “issue” ou  procure corrigir você mesma(o) o erro e dar um “pull request”.
-
-
-C) use os dados baixados para agregar valor, como por exemplo, para realizar análises ou publicar artigos, fazer inferências, elaborar recomendações aos poderes públicos etc. Baixar esses dados para reproduzi-los em sua página web é tirar proveito do trabalho alheio, mesmo sendo esses dados públicos.
+brew install chrome river
+Permitir o chromedriver no painel de segurança
+```
