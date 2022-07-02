@@ -1,10 +1,6 @@
 # Crawler_LexML
-
-Projeto que visa capturar informações do site [LexML](https://www.lexml.gov.br). O objetivo é simplesmente obter as informações de forma a possibilitar o consumo das informações de maneira ágil.
-
-Para iniciar a captura de qualquer informação do site basta alterar a URL no parâmetro **driver.Get("")** na função **DayCrawler** no arquivo **crawler.go**
-
-Ao final são gerados um arquivo CSV com todos os tados pesquisados.
+Project for crawlling information on [LexML](https://www.lexml.gov.br)
+CSV file is generate with collected data.
  
 ## Dependencies
 - [Selenium](https://github.com/tebeka/selenium#readme)
@@ -20,5 +16,9 @@ Ao final são gerados um arquivo CSV com todos os tados pesquisados.
 
 ```go run main.go```
 
+- To config a new search go in **crawler.go** file, function **DayCrawler** and alter the URL parameter on **driver.Get("")**
+
+
+## Notes
 - Sometimes chromedriver need a clearnce in security options on MacOS.
 - Don't forget to previus install Java.
